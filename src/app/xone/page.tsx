@@ -55,7 +55,7 @@ export default function Home() {
       try {
         const { request } = await client.simulateContract({
           account,
-          address: "0x4DCDa2274899d9BbA3Bb6f5A852C107Dd6E4fE1c",
+          address: "0x22a0AACB0A70cEAD44169E054524D9291C2dd427",
           abi: xoneAbi,
           functionName: "mint",
           maxPriorityFeePerGas: BigInt(fee),
